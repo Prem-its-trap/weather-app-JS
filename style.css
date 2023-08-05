@@ -1,0 +1,60 @@
+html body {
+  color: white;
+  background-color: #20213d;
+}
+.searchContainer {
+  /* border: 1px solid blue; */
+  text-align: center;
+}
+.search {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search input {
+  background-color: #2e335a;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 596px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  margin-right: 10px;
+}
+#btn-search {
+  color: white;
+  background-color: #4a397f;
+  padding: 7px 30px;
+  font-weight: bold;
+}
+.weather_holder {
+  background-image: url("assets/Rectangle\ 1.png");
+  display: flex !important;
+  align-items: center;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  padding: 0 10px 10px 10px;
+  width: 342px;
+  height: 184px;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+.temp {
+  font-weight: 400;
+  font-size: 64px;
+}
+.lat {
+  color: #ebebf5;
+}
+.temp_icon {
+  margin-top: -30px;
+  padding: none;
+  text-align: end;
+}
+.temp_icon img {
+  padding: none;
+}

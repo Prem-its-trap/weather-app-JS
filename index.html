@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <script src="script.js" defer></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <section class="Box">
+      <div class="container searchContainer">
+        <br />
+        <h1 class="heading">Weather Cities Project</h1>
+        <div class="search">
+          <input type="text" id="city" required="true" />
+          <button class="btn" id="btn-search" onclick="city()">Search</button>
+        </div>
+      </div>
+      <br />
+
+      <div class="container">
+        <div class="row" id="weather-cards">
+          <!-- <div class="col-sm-4">
+            <div class="weather_holder">
+              <div class="temp_details">
+                <h1 class="temp">13</h1>
+                <span class="lat">H:16 L:8</span><br />
+                <span class="city">Jaipur India</span>
+              </div>
+              <div class="temp_icon">
+                <img
+                  src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png"
+                  alt=""
+                  class="img-fluid"
+                  ,
+                  height="120px"
+                  ,
+                  width="120px"
+                /><br />
+                <span>Shower</span>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
